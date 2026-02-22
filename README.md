@@ -1,8 +1,10 @@
-# 🚀 AWS Node.js HTTP API Project (Serverless Framework)
+<img width="3199" height="1999" alt="Screenshot 2026-02-22 163137" src="https://github.com/user-attachments/assets/8d0c43d5-3b17-4977-a789-8231a03e3c7b" /># 🚀 AWS Node.js HTTP API Project (Serverless Framework)
 
 A fully serverless CRUD API built using **AWS Lambda**, **API Gateway (HTTP API)**, and **DynamoDB**, deployed using the **Serverless Framework (IaC with CloudFormation)**.
 
 ---
+
+<img width="1813" height="1232" alt="Screenshot 2026-02-22 174145" src="https://github.com/user-attachments/assets/f061719e-83bb-4315-931a-bd411c038d89" />
 
 ## 📌 Architecture Overview
 
@@ -45,6 +47,8 @@ Everything is managed using Infrastructure as Code (IaC).
 ```
 
 ---
+
+<img width="3196" height="1999" alt="Screenshot 2026-02-22 165914" src="https://github.com/user-attachments/assets/aafb155c-af98-4460-afd2-6a13ddb019a9" />
 
 # ⚙️ Serverless Configuration
 
@@ -146,12 +150,16 @@ serverless login
 serverless deploy
 ```
 
+<img width="3199" height="1999" alt="Screenshot 2026-02-22 163137" src="https://github.com/user-attachments/assets/33e4b070-2ccf-4aff-b069-b97d29e93b5c" />
+
 After deployment, you will receive an API endpoint URL.
 
 ---
 
 
 # 🔌 API Endpoints
+
+<img width="3196" height="1999" alt="Screenshot 2026-02-22 165229" src="https://github.com/user-attachments/assets/9b77d5b2-57c1-44ea-b424-048bbf44ce88" />
 
 ## 1️⃣ GET `/` – Test API
 
@@ -166,6 +174,8 @@ functions:
 ```
 
 ---
+
+<img width="3199" height="1999" alt="Screenshot 2026-02-22 165240" src="https://github.com/user-attachments/assets/fbaf7498-634b-48fc-9ad4-1fc81286d1b4" />
 
 ## 2️⃣ POST `/kaam` – Create Item
 
@@ -223,6 +233,8 @@ functions:
 
 ---
 
+<img width="3199" height="1999" alt="Screenshot 2026-02-22 165033" src="https://github.com/user-attachments/assets/ccb52202-a9f7-453c-8a74-bbc01d59325e" />
+
 # 🗄 DynamoDB Table
 
 ```yaml
@@ -274,6 +286,8 @@ Example POST body:
 ```
 
 ---
+
+<img width="2583" height="521" alt="Screenshot 2026-02-22 170039" src="https://github.com/user-attachments/assets/b6506699-4849-4589-a093-c945f6b5094b" />
 
 # 🗑 Remove All Infrastructure
 
