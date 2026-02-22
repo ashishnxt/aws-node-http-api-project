@@ -1,4 +1,4 @@
-<img width="3199" height="1999" alt="Screenshot 2026-02-22 163137" src="https://github.com/user-attachments/assets/8d0c43d5-3b17-4977-a789-8231a03e3c7b" /># 🚀 AWS Node.js HTTP API Project (Serverless Framework)
+# 🚀 AWS Node.js HTTP API Project (Serverless Framework)
 
 A fully serverless CRUD API built using **AWS Lambda**, **API Gateway (HTTP API)**, and **DynamoDB**, deployed using the **Serverless Framework (IaC with CloudFormation)**.
 
