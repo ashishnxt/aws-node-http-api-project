@@ -1,11 +1,11 @@
-org: ashish
+org: ashishaxm
 app: aws-node-http-api-project
 service: aws-node-http-api-project
 frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs14.x
+  runtime: nodejs18.x
   region: us-east-1
   iamRoleStatements:
     - Effect: Allow
@@ -39,11 +39,11 @@ functions:
       - httpApi:
           path: /kaam/{id}
           method: put
-  kaamKhatamKaro:
-    handler: src/kaamKhatamKaro.handler
+  kaamDeleteKaro:
+    handler: src/delete.handler
     events:
       - httpApi:
-          path: /kaam
+          path: /kaam/{id}
           method: delete
 
 resources:
